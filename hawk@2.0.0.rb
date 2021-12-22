@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class HawkATbeta < Formula
+class HawkAT200 < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
   url "https://download.stackhawk.com/hawk/cli/hawk-2.0.0-beta.zip"
