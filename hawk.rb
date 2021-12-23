@@ -8,8 +8,6 @@ class Hawk < Formula
   sha256 "0c95243c3bf58ec71ca407d89a4c8dd3cf27ad25bc3651a6d978283732573892"
   license ""
 
-  depends_on "openjdk"
-
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     inreplace "hawk", "$(dirname $0)", "#{prefix}"
