@@ -1,6 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class HawkBetaAT200 < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
@@ -9,7 +6,6 @@ class HawkBetaAT200 < Formula
   license ""
 
   def install
-    # ENV.deparallelize  # if your formula fails when building in parallel
     system "java", "--version"
     inreplace "hawk", "$(dirname $0)", "#{prefix}"
     bin.install "hawk"
