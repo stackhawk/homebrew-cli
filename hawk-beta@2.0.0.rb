@@ -6,7 +6,7 @@ class HawkBetaAT200 < Formula
   license ""
 
   def install
-    system "java", "--version"
+    system "java", "-version"
     inreplace "hawk", "$(dirname $0)", "#{prefix}"
     bin.install "hawk"
     prefix.install Dir["./*"]
