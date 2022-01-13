@@ -1,5 +1,5 @@
 class Hawk < Formula
-desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
+  desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
   url "https://download.stackhawk.com/hawk/cli/hawk-2.0.0.zip"
   sha256 "3339dcef04614d90571ff3a9d6f1724dc2bfdccc134fcb1610942a19cd607f53"
