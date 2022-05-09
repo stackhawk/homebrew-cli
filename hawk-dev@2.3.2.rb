@@ -2,7 +2,7 @@ class HawkDevAT232 < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
   url "https://download.test.stackhawk.com/hawk/cli/hawk-2.3.2.zip"
-  sha256 "12fcd9373702f5d88836c53be0dc0d63c43a43f8d173320338d04bc358fd7298"
+  sha256 "638f94ff15f88adf1aedda2bc3c432ae93fdb3554333c9b407ba6bf3e99c0a7f"
   license ""
 
   def install
