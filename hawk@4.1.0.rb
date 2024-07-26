@@ -1,4 +1,4 @@
-class Hawk < Formula
+class HawkAT410 < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
   url "https://download.stackhawk.com/hawk/cli/hawk-4.1.0.zip"
