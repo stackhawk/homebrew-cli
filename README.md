@@ -1,14 +1,23 @@
-
 # StackHawk CLI Homebrew formulae
 
-This repository hosts the [homebrew](https://brew.sh/) formulae for the StackHawk CLI. 
+This repository hosts the [Homebrew](https://brew.sh/) formulae for the StackHawk CLI tools.
 
-To learn more see the [documentation](https://docs.stackhawk.com/stackhawk-cli).   
+To learn more see the [documentation](https://docs.stackhawk.com/stackhawk-cli).
 
 ## Install
-```shell
-$ brew tap stackhawk/cli
-$ brew install hawk
+
+```sh
+brew tap stackhawk/cli
 ```
 
+### HawkScan
 
+```sh
+brew install hawk
+```
+
+### HawkOp
+
+```sh
+brew install hawkop
+```
