@@ -1,4 +1,4 @@
-class Hawkop < Formula
+class HawkopAT071 < Formula
   desc "CLI companion for the StackHawk AppSec Intelligence Platform"
   homepage "https://www.stackhawk.com/"
   license "MIT"
