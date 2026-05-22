@@ -6,22 +6,22 @@ class Hawkop < Formula
   on_macos do
     on_intel do
       url "https://download.stackhawk.com/hawkop/cli/hawkop-v0.7.2-x86_64-apple-darwin.tar.gz"
-      sha256 "97b9129a6be66287d43e09fbcd84207f82c71c94a29fd3ba612a778796b388c8"
+      sha256 "cdbd0982a034ba524c9b3d5be44678971edcd70d20f6c474e2800203f84c308d"
     end
     on_arm do
       url "https://download.stackhawk.com/hawkop/cli/hawkop-v0.7.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2540a0f3db5ee49487192b50249f444c6abef99e6cdea2aa65a4e6382af8243f"
+      sha256 "7259a6175a3a9e4568bea3b83642d420d69c45a93941b45fa4e22ef371355f14"
     end
   end
 
   on_linux do
     on_intel do
       url "https://download.stackhawk.com/hawkop/cli/hawkop-v0.7.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d47814ea594f5c3a3c5e1f579020db32808c3f4780c19244aa94698d4d4d472e"
+      sha256 "f42bd68147ad808e21e5785ae20db176bdb47b9d210c5e4a1c8126961a4c2bd9"
     end
     on_arm do
       url "https://download.stackhawk.com/hawkop/cli/hawkop-v0.7.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "412e9714d451327e41ba713217c98b1fe6def3a5ff54617c4acb67c1f2211427"
+      sha256 "75293622036a0a2619a8f5805627b0387d59f0afafc1e77656abd3cc5de1c83e"
     end
   end
 
