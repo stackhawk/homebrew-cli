@@ -1,4 +1,4 @@
-class Hawk < Formula
+class HawkAT600 < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
   version "6.0.0"
