@@ -1,16 +1,16 @@
 class Hawk < Formula
   desc "KaaKaww! Helping developers to find, triage and fix security bugs!"
   homepage "https://www.stackhawk.com/"
-  version "6.6.0"
+  version "6.7.4"
 
   on_macos do
     on_arm do
-      url "https://download.stackhawk.com/hawk/6.6.0/darwin-arm64/hawk"
-      sha256 "af3c9e64987110b5bdb8cb83036013ba5b38f0d8a0a8ea1f26b8199d4ba17c0a"
+      url "https://download.stackhawk.com/hawk/6.7.4/darwin-arm64/hawk"
+      sha256 "493493c3ffa56b3548b1a7063420ae662470e3034d3405264a7a1ed51d8db2d2"
     end
     on_intel do
-      url "https://download.stackhawk.com/hawk/6.6.0/darwin-x64/hawk"
-      sha256 "fcf5b4d5715c1dd9a4c6950919633c06eb227df56897fd5d0f64b5677336e625"
+      url "https://download.stackhawk.com/hawk/6.7.4/darwin-x64/hawk"
+      sha256 "a585ff0b541a9cde3ae90723e5fd0e0ee725a5479e1ef7a05fe75993b821aee6"
     end
   end
 
